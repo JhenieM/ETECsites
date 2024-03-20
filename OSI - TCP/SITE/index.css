@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Fjalla+One&family=Madimi+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 300px;
+    background-color: black;
+}
+.header-center {
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-family: 'Fjalla One';
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.a-link-equipe {
+    position: relative;
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+    padding: 5px 30px;
+    font-size: 22px;
+    top: 30px;
+}
+.a-link-equipe:hover {
+    color: white;
+    background-color: black;
+    border: solid 2px white;
+}
+
+.conteudo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-box, .second-box, .third-box {
+    width: 300px;
+    height: 300px;
+    border: solid 2px black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Fjalla One';
+    font-size: 30px;
+    color: black;
+    border-radius: 10px;
+}
+.first-box a, .second-box a, .third-box a {
+    position: relative;
+    top: 40px;
+    padding: 5px 15px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.first-box p, .second-box p, .third-box p {
+    position: relative;
+    top: 20px;
+}
+.first-box img, .second-box img, .third-box img {
+    position: relative;
+    width: 170px;
+    top: 25px;
+}
+
+.first-box a:hover {background-color: rgb(2,72,142);}
+.second-box a:hover {background-color: rgb(254,159,31);}
+.third-box a:hover {background-color: rgb(93,163,100);}
+
