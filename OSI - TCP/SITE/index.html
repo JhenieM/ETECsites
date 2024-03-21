@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="MODAL/modal.css">
+  <link rel="icon" href="IMG/mundinho.png">
+  <title>OSI - TCP</title>
+</head>
+<body>
+  <header class="header-container">
+    <div class="header-center">
+      <h1>OSI vs TCP</h1>
+      <h2>ORIENTADOR - PROFº LEANDRO</h2>
+      <a href="#modalEquipe" class="a-link-equipe">EQUIPE</a>
+    </div>
+  </header>
+
+  <section class="section-search">
+    <div class="conteudo-container-main">
+      <div class="conteudo-container">
+        <div class="first-box">
+          <p>OSI</p>
+          <img src="IMG/osi.png" alt="Imagem de OSI" class="imagem" style="width: 180px; top: 40px;">
+          <a href="#modalOSI" style="top:70px">Ler mais</a>
+        </div>
+        <div class="second-box">
+          <p>TCP</p>
+          <img src="IMG/tcp.jpg" alt="Imagem de TCP" class="imagem">
+          <a href="#modalTCP">Ler mais</a>
+        </div>
+        <div class="third-box">
+          <p>DIFERENÇAS</p>
+          <img src="IMG/diferenca.png" alt="Imagem de diferença" class="imagem">
+          <a href="#modaldiferencas">Ler mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Modal OSI -->
+  <div class="modal-container-box" id="modalOSI">
+    <div class="modal-container">
+        <div class="modal">
+          <div class="topo">
+            <h1>OSI</h1>
+            <a href="#" class="close">X</a>
+          </div>
+          <hr>
+          <p>A OSI <strong>(Open Systems Interconnection)</strong> é um modelo de referência que descreve como os dados são transmitidos e recebidos. Desenvolvido pela ISO (International Organization for Standardization), o modelo OSI é dividido em sete camadas, cada uma representando uma função específica no processo de comunicação de dados. Sendo elas:</p>
+          <img src="IMG/modeloosi.webp" alt="imagem do modelo OSI">
+          <div class="texto-imagem">
+              <p><strong>Camada Física:</strong> Lida com a transmissão física dos dados, como sinais elétricos, como cabos de fibra óptica, cabos de cobre e ar.</p> <p><strong>Camada de Enlace de Dados:</strong> Responsável pelo controle de acesso ao meio e pela detecção e correção de erros na camada física.</p> <p><strong>Camada de Rede:</strong> Gerencia o roteamento dos dados através de uma rede, determinando o melhor caminho para a entrega.</p>
+          </div>
+          <p><strong>Camada de Transporte:</strong> Controla o fluxo de dados, garante a entrega ordenada e confiável e fornece correção de erros.</p> <p><strong>Camada de Sessão:</strong> Estabelece, gerencia e encerra as sessões entre os aplicativos em diferentes dispositivos.</p> <p><strong>Camada de Apresentação:</strong> Lida com a tradução, criptografia e compressão dos dados para garantir que possam ser entendidos pelo destinatário.</p> <p><strong>Camada de Aplicação:</strong> Fornece interfaces para os aplicativos de usuário e serviços de rede, como e-mail, navegação na web e transferência de arquivos.</p>
+        </div>
+    </div>
+  </div>
+  <!-- Modal TCP -->
+  <div class="modal-container-box" id="modalTCP">
+    <div class="modal-container" style="background: rgb(254, 159, 31);">
+        <div class="modal">
+          <div class="topo">
+            <h1>TCP</h1>
+            <a href="#" class="close">X</a>
+          </div>
+          <hr>
+            <p>O TCP/IP (Transmission Control Protocol/Internet Protocol) é um modelo que foi criado bom base no modelo OSI. Ele funciona como um meio de comunicação em rede permitindo a comunicação entre diferentes dispositivos e sistemas de uma forma organizada e padronizada. Ele foi projetado para enviar pacotes pela internet e garantir a entrega bem-sucedida de dados e mensagens nas redes. O TCP/IP opera em diferentes camadas, e há duas versões principais do modelo: o modelo de 4 camadas e o modelo de 5 camadas.</p>
+            <h2 class="titulo">Modelo de 4 camadas do TCP</h2>
+            <div class="texto-imagem01" style="display:flex;">
+              <img src="IMG/modelotcp01.png" alt="imagem 01 do modelo TCP" style="width: 300px;">
+              <div class="texto" style="top: 40px">
+                <p><strong>1-	Acesso ao Meio:</strong> é responsável pelo envio de dados entre os dispositivos conectados diretamente.</p> <p><strong>2-	Internet:</strong> O protocolo IP pertence a esta camada. Ele é responsável pelo roteamento dos pacotes de dados entre as redes.</p> <p><strong>3-	Transporte:</strong> é responsável pelo controle de fluxo, garantindo a conexão dos dados sólida e confiável. Ele verifica se os dados foram enviados corretamente sem erros.</p> <p><strong>4-	Aplicação:</strong> é responsável pela interação dos usuários, como a comunicação pelas plataformas de mensagens.</p>
+              </div>
+            </div>
+            <h2 class="titulo">Modelo de 5 camadas do TCP</h2>
+         <div class="texto-imagem02" style="display:flex;">
+          <img src="IMG/modelotcp02.png" alt="imagem 02 do modelo TCP" style="width: 300px;">
+          <div class="texto" style="top: 30px;">
+            <p><strong>1-	Física:</strong> é responsável pela recepção e transmissão física dos bits. </p> <p><strong>2-	Enlace:</strong> é responsável pela comunicação entre os dispositivos na rede.</p> <p><strong>3-	Internet/Rede:</strong> é responsável pelo roteamento e o endereço de IP </p> <p><strong>4-	Transporte:</strong> tem a mesma função que à camada de transporte do modelo de 4 camadas.</p> <p> <strong>5-	Aplicação:</strong> tem a mesma função que à camada de aplicação do modelo de 4 camadas.</p>
+          </div>
+         </div>
+        </div>
+    </div>
+  </div>
+  <!-- Modal Diferenças -->
+  <div class="modal-container-box" id="modaldiferencas">
+    <div class="modal-container" style="background: rgb(93,163,100)">
+        <div class="modal">
+          <div class="topo">          
+            <h2>Diferenças de OSI e TCP</h2>
+            <a href="#" class="close" style="left: 495px; bottom: 5px;">X</a>
+          </div>
+          <hr>
+            <p>O modelo OSI (Open System Interconnection) é um modelo de referência que define sete camadas para comunicações de rede, equanto o TCP (Transmission Control Protocol) é um protocolo de transporte que opera na camada de transporte do modelo OSI. Em resumo, o OSI é um modelo teórico, enquanto o TCP é um protocolo prático utilizado para comunicações em reds de computadores.</p>
+            <p>Além disso, apesar do modelo OSI ser a referência para as redes e toda sua nomenclatura, a arquitetura TCP/IP é a que foi realmente implementada e está em uso até os dias de hoje tanto nas redes internas (Intranets) como na internet. No TCP/IP não costumamos nos referir pelos números das camadas e sim pelos nomes delas, pois quando nos referimos pelo número da camada estamos falando do OSI. TCP/IP também é o mais utilizado no mercado.</p>
+        </div>
+    </div>
+  </div>
+    <!-- Modal Equipe -->
+  <div class="modal-container-box" id="modalEquipe">
+    <div class="modal-container" style="background: black;">
+        <div class="modal">
+          <div class="topo">          
+            <h2 style="color: white;">EQUIPE</h2>
+            <a href="#" class="close" style="left: 675px; bottom: 5px; color: white">X</a>
+          </div>
+          <hr>
+          <div class="imagem-box">
+            <img src="IMG/foto.jpg" alt="Foto da equipe" class="imagem-equipe">
+            <p style="color: white; text-transform: uppercase;">Jhenifer - Marina - Raissa - Vitória</p>
+          </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
