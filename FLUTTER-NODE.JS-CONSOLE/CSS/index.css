@@ -1,9 +1,13 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 
-body {
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: rgb(27, 23, 23);
 }
 
 .header {
@@ -127,13 +131,56 @@ input:checked ~ .menu-elements-hamburguer {
     z-index: 1;
 }
 
-.menu {
+.section-main {
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.pesquisas {
     display: flex;
-    height: 60px;
-    width: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(4, 18, 31);
+    border-radius: 15px;
+    justify-content: space-between;
+    margin: 15px;
 }
 
-.container-box-main {
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-flutter {
+    width: 280px;
+}
+.img-console {
+    width: 200px;
+}
+.img-nodejs {
+    width: 350px;
+}
+
+/* .container-box-main {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -151,4 +198,4 @@ input:checked ~ .menu-elements-hamburguer {
 }
 .container-text {
     font-family: 'Cabin', sans-serif;
-}
+} */
