@@ -12,6 +12,7 @@ body {
     overflow-x: hidden;
 }
 
+/*HEADER*/
 .header {
     width: 100%;
     display: block;
@@ -113,6 +114,11 @@ input:checked ~ .menu-elements-hamburguer {
     color: white;
 }
 
+#menu-hamburger {
+    width: 50px;
+    height: 50px;
+}
+
 .menu-elements-hamburguer {
     width: 20%;
     height: 100%;
@@ -130,13 +136,10 @@ input:checked ~ .menu-elements-hamburguer {
 
     z-index: 1;
 }
-main {
-    height: 90dvh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
+/*SECCIÓN DE LAS PESQUISAS - BOX*/
 .section-main {
+    margin: 30px auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -149,12 +152,10 @@ main {
 }
 .container-main {
     display: inline;
-    left: 50%;
 }
 
 .box-main {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 350px;
     height: 400px;
@@ -208,6 +209,14 @@ main {
     font-size: 16px;
     font-family: 'Cabin', sans-serif;
     text-transform: capitalize;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+.btn:hover {
+    background-color: white;
+    transition: 0.5s ease;
+    color: black;
 }
 a {
     text-decoration: none;
@@ -244,8 +253,37 @@ footer .content-footer {
     main {
         height: auto;
     }
+    
+    .menu-elements-hamburguer {
+        width: 35%;
+    }
 }
 
+/*SECCIÓN DE LAS PESQUISAS - PESQUISAS*/
+.section-pesquisas {
+    margin: 40px 10px;
+    display: grid;
+    place-items: center;
+    background-color: rgb(65, 63, 59);
+}
+.box-pesquisa-main {
+    width: 80%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    padding: 15px;
+    margin: 20px;
+}
+.box-pesquisa {
+    display: grid;
+    place-items: center;
+    font-family: 'Cabin', sans-serif;
+}
+
+h1{
+    font-size: 35px;
+    text-transform: uppercase;
+}
 
 /* .container-box-main {
     width: 100%;
