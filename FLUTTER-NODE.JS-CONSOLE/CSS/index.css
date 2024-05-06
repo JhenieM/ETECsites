@@ -150,6 +150,7 @@ input:checked ~ .menu-elements-hamburguer {
     align-items: center;
     margin: auto;
 }
+
 .container-main {
     display: inline;
 }
@@ -193,7 +194,7 @@ input:checked ~ .menu-elements-hamburguer {
     width: 200px;
 }
 .img-nodejs {
-    width: 350px;
+    width: 200px;
 }
 
 .div-btn {
@@ -236,6 +237,8 @@ footer .content-footer {
     justify-content: center;
 }
 
+/*SCROLL DEL SITIO*/
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -243,64 +246,42 @@ footer .content-footer {
     background-color: rgb(0, 0, 0);
 }
 
+/*REPONSIVIDAD DEL SITIO*/
+
 @media screen and (max-width: 767px) {
     .pesquisas {
         display: block;
         position: relative;
         padding: 35px;
     }
-
-    main {
-        height: auto;
+    .container-main {
+        display: grid;
+        place-items: center;
     }
     
     .menu-elements-hamburguer {
         width: 35%;
     }
+
+    .box-main, .div-btn{
+        width: calc(100% - 100px);
+    }
+
+    .img {
+        width: calc(60% - 60px);
+    }
 }
 
-/*SECCIÓN DE LAS PESQUISAS - PESQUISAS*/
-.section-pesquisas {
-    margin: 40px 10px;
-    display: grid;
-    place-items: center;
-    background-color: rgb(65, 63, 59);
-}
-.box-pesquisa-main {
-    width: 80%;
-    height: auto;
-    display: grid;
-    place-items: center;
-    padding: 15px;
-    margin: 20px;
-}
-.box-pesquisa {
-    display: grid;
-    place-items: center;
-    font-family: 'Cabin', sans-serif;
-}
+/* @media screen and (max-width: 440px) {
+    .box-main {
+        width: calc(100% - 100px);
+    }
 
-h1{
-    font-size: 35px;
-    text-transform: uppercase;
-}
+    .box-content p {
+        font-size: 13px;
+    }
 
-/* .container-box-main {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: grey;
-}
-.container-box {
-    width: 90%;
-    height: 460px;
-    padding: 20px;
-    background-color: black;
-    color:white;
-    overflow: scroll;
-}
-.container-text {
-    font-family: 'Cabin', sans-serif;
+    .img {
+        width: calc(100% - 80px);
+    }
 } */
