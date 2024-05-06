@@ -8,7 +8,6 @@
 
 body {
     background-color: rgb(27, 23, 23);
-    overflow: scroll;
     overflow-x: hidden;
 }
 
@@ -35,8 +34,11 @@ input {
 }
 
 .logo {
+    position: relative;
+    width: 50px;
     display: flex;
     justify-content: center;
+    filter: invert(100%);
 }
 
 a {
@@ -54,7 +56,7 @@ li a {
 
 label {
     position: relative;
-    z-index: 999;
+    z-index: 9;
 }
   
 .hamburguer {
@@ -139,6 +141,8 @@ input:checked ~ .menu-elements-hamburguer {
 
 /*SECCIÓN DE LAS PESQUISAS - BOX*/
 .section-main {
+    position: relative;
+    top: 50px;
     margin: 30px auto;
     display: flex;
     align-items: center;
@@ -184,7 +188,7 @@ input:checked ~ .menu-elements-hamburguer {
 
 .img {
    position: relative;
-   top: 35px;
+   top: 20px;
 }
 
 .img-flutter {
@@ -205,7 +209,7 @@ input:checked ~ .menu-elements-hamburguer {
 .btn {
     padding: 10px;
     background-color: black;
-    width: 90px;
+    width: 150px;
     border-radius: 10px;
     font-size: 16px;
     font-family: 'Cabin', sans-serif;
@@ -223,6 +227,7 @@ a {
     text-decoration: none;
 }
 
+/*FOOTER*/
 footer {
     width: 100%;
     display: block;
@@ -231,11 +236,14 @@ footer .content-footer {
     color: white;
     font-family: 'Cabin', sans-serif;
     height: 50px;
+    position: absolute;
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
+
 
 /*SCROLL DEL SITIO*/
 
@@ -248,7 +256,11 @@ footer .content-footer {
 
 /*REPONSIVIDAD DEL SITIO*/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 740px) {
+
+    body {
+        overflow: scroll;
+    }
     .pesquisas {
         display: block;
         position: relative;
@@ -267,21 +279,18 @@ footer .content-footer {
         width: calc(100% - 100px);
     }
 
+    .btn {
+        width: 250px;
+    }
+
     .img {
-        width: calc(60% - 60px);
+        width: calc(40% - 20px);
+    }.img-flutter {width: calc(60% - 20px);}
+    
+    .box-content p {
+        margin: 20px auto;
+    }
+    .box-main {
+        height: auto;
     }
 }
-
-/* @media screen and (max-width: 440px) {
-    .box-main {
-        width: calc(100% - 100px);
-    }
-
-    .box-content p {
-        font-size: 13px;
-    }
-
-    .img {
-        width: calc(100% - 80px);
-    }
-} */

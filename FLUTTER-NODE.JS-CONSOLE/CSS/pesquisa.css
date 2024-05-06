@@ -3,10 +3,14 @@
 
 /*SECCIÓN DE LAS PESQUISAS - PESQUISAS*/
 .section-pesquisas {
+    position: relative;
+    /* height: 0px;
+    padding: 0px; */
+    display: block;
     margin: 40px 10px;
-    display: grid;
-    place-items: center;
+    /* overflow: hidden; */
 }
+
 .box-pesquisa-main {
     width: 80%;
     height: auto;
@@ -20,6 +24,10 @@
     display: grid;
     place-items: center;
     font-family: 'Cabin', sans-serif;
+}
+
+.pesquisa {
+    display: none;
 }
 
 h1 {
