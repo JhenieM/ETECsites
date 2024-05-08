@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/pesquisa.css">
+    <link rel="stylesheet" href="CSS/aboutUs.css">
+    <script src="SCRIPT/index.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PESQUISAS</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="menu-hamburguer">
+            <a onClick="restart()" style="cursor: pointer;"><img src="IMG/logo.png" alt="LOGO" class="logo"></a>
+            <input id="menu-hamburger" type="checkbox"/>
+            <label for="menu-hamburger">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+            <ul class="menu-elements-hamburguer">
+                <li><a href="#aboutUs">Sobre</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section-main">
+            <div class="pesquisas">
+                <div class="div-flutter container-main">
+                    <div class="box-main">
+                        <div class="flutter-box box-content">
+                            <img src="IMG/flutter.png" alt="Flutter Icon" class="img img-flutter">
+                            <p>Framework do Google para desenvolver aplicativos nativos multiplataforma com Dart e widgets personalizáveis. Reconhecido pela eficiência no desenvolvimento de aplicativos para dispositivos móveis, web e desktop.</p>
+                        </div>
+                    </div>
+                    <div class="div-btn">
+                        <a href="#flutter" class="btn" onClick="TrocaDivs('flutter')" id="toggleButton">ver pesquisa</a>
+                    </div>
+                </div>
+                <div class="div-nodejs container-main">
+                    <div class="box-main">
+                        <div class="nodejs-box box-content">
+                            <img src="IMG/nodeJs.png" alt="Flutter Icon" class="img img-nodejs">
+                            <p> Plataforma JavaScript que possibilita a criação de aplicativos de rede escaláveis e de alto desempenho, tanto no servidor quanto no cliente. Utiliza uma arquitetura orientada a eventos e I/O não bloqueante, sendo amplamente utilizado em desenvolvimento web, APIs RESTful, servidores de jogos e aplicativos em tempo real.</p>
+                        </div>
+                    </div>
+                    <div class="div-btn">
+                        <a href="#nodeJS" class="btn" onClick="TrocaDivs('nodeJS')" id="toggleButton">ver pesquisa</a>
+                    </div>
+                </div>
+                <div class="div-console container-main">
+                    <div class="box-main">
+                        <div class="console-box box-content">
+                            <img src="IMG/console.png" alt="Flutter Icon" class="img img-console">
+                            <p>Interface de linha de comando fundamental para interagir com sistemas operacionais e aplicativos. Essencial para tarefas como depuração, administração e automação de sistemas.</p>
+                        </div>
+                    </div>
+                    <div class="div-btn">
+                        <a href="#console" class="btn" onClick="TrocaDivs('console')" id="toggleButton">ver pesquisa</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-pesquisas">
+            <div class="box-pesquisa pesquisa" id="flutter">
+                <div class="box-pesquisa-main">
+                    <h1>Flutter</h1>
+                    <hr>
+                    <div class="texto">
+                        <p>Flutter é um framework de código aberto desenvolvido pelo Google, usado para criar aplicativos nativos para dispositivos móveis, web e desktop a partir de uma única base de código. Ele utiliza a linguagem de programação Dart, também desenvolvida pelo Google, e oferece uma abordagem de desenvolvimento rápida e eficiente, com sua característica de hot reload, que permite ver as mudanças no código imediatamente, sem a necessidade de reiniciar o aplicativo.</p>
+
+                        <p>As aplicações do Flutter são diversas e abrangem uma variedade de setores e necessidades. Ele é amplamente utilizado para desenvolver aplicativos móveis para Android e iOS, oferecendo desempenho próximo ao nativo, interface de usuário rica e personalizável e acesso a recursos do dispositivo.</p>
+                        
+                        <p>Além disso, o Flutter também é usado para o desenvolvimento de aplicativos web e desktop, permitindo que os desenvolvedores criem interfaces de usuário responsivas e dinâmicas para várias plataformas a partir de uma única base de código.</p>
+                        
+                        <p>Suas principais aplicações incluem desenvolvimento de aplicativos empresariais, aplicativos de mídia social, jogos, aplicativos de<br>e-commerce, aplicativos educacionais e muito mais. Sua flexibilidade, desempenho e facilidade de uso o tornam uma escolha popular para desenvolvedores que buscam criar experiências de usuário de alta qualidade em várias plataformas.</p>
+                        
+                        <p>O Flutter é utilizado em uma ampla gama de aplicações, desde aplicativos de mídia social, como o Reflectly, até plataformas de<br>e-commerce, como a Alibaba. Ele se destaca em setores como saúde e bem-estar, educação, música e entretenimento, produtividade e viagens, permitindo o desenvolvimento de interfaces de usuário fluidas e personalizadas em várias plataformas. Sua capacidade de oferecer desempenho próximo ao nativo, juntamente com recursos como hot reload, o tornam uma escolha popular entre os desenvolvedores que buscam criar experiências de usuário de alta qualidade de forma eficiente.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box-pesquisa pesquisa" id="nodeJS">
+                <div class="box-pesquisa-main">
+                    <h1>Node.JS</h1>
+                    <hr>
+                    <div class="texto">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="box-pesquisa pesquisa" id="console">
+                <div class="box-pesquisa-main">
+                    <h1>Console</h1>
+                    <hr>
+                    <div class="texto">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="foto" id="aboutUs">
+            <div class="photoContainer">
+                <img src="IMG/foto.jpg" alt="Foto da Equipe">
+                <a href="#">FECHAR</a>
+            </div>
+        </div>
+    </main>
+        <footer>
+            <div class="content-footer">
+                <p>© 2024 Jhenifer - Marina - Raissa - Vitória</p>
+            </div>
+        </footer>
+</body>
+</html>
