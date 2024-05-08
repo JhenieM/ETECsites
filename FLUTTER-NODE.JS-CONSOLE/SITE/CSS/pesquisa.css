@@ -42,3 +42,10 @@ hr {
     text-indent: 30px;
 }
 
+.dataEntrega {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
