@@ -1,4 +1,5 @@
 # AVISOS :pencil: #
 </br>
-* Alguns sites podem, ou não, estar responsivos.
-* Os links para o acesso estão nas em suas respectivas pastas.
+1. Alguns sites podem, ou não, estar responsivos.
+</br>
+2. Os links para o acesso estão nas em suas respectivas pastas.
