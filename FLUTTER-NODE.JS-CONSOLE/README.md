@@ -1,3 +1,3 @@
 ## **LINK** ##
 <br/>
-https://flutter-nodejs-console.app/
+https://flutter-nodejs-console.netlify.app/
